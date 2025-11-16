@@ -6,12 +6,12 @@
     <title>Sofiane's portfolio</title>
 </head>
 <!--ajout d'un background pour le site , dans le body-->
-<body style="background-color: #F5F5F5;font-family:fantasy  ">
+<body style="background-color: #F5F5F5;font-family:fantasy;color: #1C1C1C; margin: 0; padding: 0;">
     <header>
          <nav>   
             <ul style="display:flex; justify-content:left;color: gray; list-style:none; gap: 20px;font-size: 20px;font-family:fantasy  ">
                 <li><a href="index.html"style="color: rgb(152,152,152);">Home</a></li>
-                <li ><a href="#about" style="color: rgb(152,152,152);">About</a></li>
+                <li><a href="#about" style="color: rgb(152,152,152);">About</a></li>
                 <li><a href="#work"style="color: rgb(152,152,152);">Work</a></li>
             
                 <li><a href="#resume"style="color: rgb(152,152,152);">Resume</a></li>
@@ -62,9 +62,9 @@
             <img src="images/work14.jpg" alt="work14" style="width: 600px; height: 400px; margin: 10px; border-radius: 10px;border: 2px solid #F5F5F5;">  
             
             
-    </section>  
+   
         <!-- ajout d'une section pour les photos en portrait -->
-       <section id="contact" style="background-color: rgb(103,103,103); padding: 10px;margin: 40px;">
+       <section  style="background-color: rgb(103,103,103); padding: 10px;margin: 40px;">
             <h2 style="color: rgb(35,35,35);">Rencontres fortuite</h2>
             <p style=" padding: 10px; color:#1C1C1C  ;">voici une sélection de portaits 
                 de rencontres fortuite que j'ai capturées au fil de mes voyages et 
@@ -75,14 +75,84 @@
             <img src="images/work12.jpg" alt="work12" style="width: 400px; height: 600px; margin: 10px; border-radius: 30px;border: 2px solid #F5F5F5;">
             <img src="images/work13.jpg" alt="work13" style="width: 400px; height: 600px; margin: 10px; border-radius: 30px;border: 2px solid #F5F5F5;">
     </section>
+       <!--parcours et cv -->
+    <section id="resume" style="background-color: #F5F5F5; padding: 40px; border-radius: 10px; width: 600px; margin: auto; border : 2px solid rgb(152,152,152);"> 
+            <h2 style="font-family:fantasy  ">Mon parcours</h2>
+            <p style="font-family:fantasy  ">Passionné de photographie depuis plusieurs années, 
+                j’ai développé mon regard autour du portrait, du paysage et de la photographie culinaire. 
+                J’ai progressivement construit une approche axée sur la lumière naturelle,
+                 les compositions épurées et la mise en valeur de l’instant . créer des images qui 
+                 racontent une histoire. 
+                 Je suis toujours à la recherche de nouvelles opportunités pour élargir mon portfolio et 
+                 travailler avec des clients inspirants.
+            </p>
+<!--Liste des compétences techniques-->
+            <h3 style="font-family:fantasy  ; font-weight: bold; margin-top: 20px; padding: 20px;width: 600px;">Compétences techniques :</h3>
+    <ul style="color:rgb(35,35,35); font-size:18px;">
+         <li>Maîtrise des boîtiers Fujifilm (X100F, X-T30, X-T5)</li>
+         <li>Travail précis sur la lumière naturelle et artificielle</li>
+         <li>Portraits en lumière douce et ambiance studio minimaliste</li>
+         <li>Photographie culinaire : stylisme simple et compositions propres</li>
+         <li>Paysages : gestion de la dynamique, couleurs naturelles, horizon propre</li>
+         <li>Maîtrise de Lightroom et Photoshop (retouche, colorimétrie, détourage simple)</li>
+    </ul>
+<!--Liste des Styles et approches-->
+    <h3>Style et Approche</h3>
+        <ul style="color:rgb(35,35,35); font-size:18px;">
+             <li>Esthétique sobre et premium</li>
+             <li>Couleurs naturelles, tons froids et rendus contrastés</li>
+             <li>Retouche discrète, respectueuse des textures</li>
+             <li>Recherche d’émotion et d’authenticité dans chaque image</li>
+         </ul>
+<!--liste des Projets et rélisations -->
+    <h3>Projets et Réalisations</h3>
+<ul style="color:rgb(35,35,35); font-size:18px;">
+  <li>Portraits studio et en extérieur</li>
+  <li>Séries photographiques personnelles (paysage, rue, noir et blanc)</li>
+  <li>Reportages photo pour événements associatifs ou culturels</li>
+  <li>Création de visuels pour réseaux sociaux et communication digitale</li>
+</ul>
+<!--liste des équipements -->
+<h3>Équipement</h3>
+<ul style="color:rgb(35,35,35); font-size:18px;">
+  <li>Fujifilm X100F</li>
+  <li>Fujifilm X-T30</li>
+  <li>Fujifilm X-T5</li>
+  <li>Objectifs : 16-80mm f/4, 23mm f/2, 35mm f/1.4, 50mm f/1.8</li>
+  <li>Trépied, éclairage LED, réflecteurs</li>
+</ul>
+
         </section>
-    
+<!--section contact via un formulaire-->
+       </section id="Contact" style="background-color: rgb(103,103,103); padding: 20px;margin: auto;">
+         <h2 style="font-family:fantasy  ; color: #1C1C1C;">Contactez-moi</h2>
+       <form action="get" method="get" >
+        <label for="name"> Nom  </label><input type="text" id="name" name="name"><br>
+        <label for="email">Email</label><input type="email" id="email" name="email"><br>
+        <label for="message" style="margin: auto;">Votre message </label><textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+       
+       </section>
+
     
     
     </main>
 
     <footer>
+        <!--ajout d'un footer pour aller aux section plus rapidement -->
+        <nav>   
+            <ul style="display:flex; justify-content:left;color: gray; list-style:none; gap: 20px;font-size: 20px;font-family:fantasy  ">
+                <li><a href="index.html"style="color: rgb(152,152,152);">Home</a></li>
+                <li><a href="#about" style="color: rgb(152,152,152);">About</a></li>
+                <li><a href="#work"style="color: rgb(152,152,152);">Work</a></li>
+            
+                <li><a href="#resume"style="color: rgb(152,152,152);">Resume</a></li>
+                <li><a href="#contact"style="color: rgb(152,152,152);">Contact</a></li>
+            </ul>
+        </nav>  
         <div style="text-align: center; padding: 10px;"> 
+
             
         <p>&copy; copyright 2025</p>
         </div>
